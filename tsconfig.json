@@ -26,5 +26,10 @@
 		"nodes/**/*",
 		"nodes/**/*.json",
 		"package.json",
+		"hbtgmbh__dmn-eval-js.d.ts"
 	],
+	"exclude": [
+		"node_modules/**",
+		"dist/**"
+	]
 }
