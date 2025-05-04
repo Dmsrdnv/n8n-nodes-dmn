@@ -27,13 +27,13 @@ Executes a dynamically generated DMN decision table against input data.
 The node requires configuration through its properties:
 
 - **Input Parameters**: Define the input columns used in the decision table and their data types. The names must match keys in the input `Data` items.
-- - Supported Types: `String`, `Number`, `Boolean`.
+  - Supported Types: `String`, `Number`, `Boolean`.
 - **Output Parameters**: Define the output columns produced by the decision table and their data types.
-- - Supported Types: `String`, `Number`, `Boolean`.
+  - Supported Types: `String`, `Number`, `Boolean`.
 - **Hit Policy**: Select the DMN hit policy to determine how multiple matching rules are handled.
-- - Supported Policies: `UNIQUE`, `FIRST`, `RULE ORDER`, `COLLECT`.
+  - Supported Policies: `UNIQUE`, `FIRST`, `RULE ORDER`, `COLLECT`.
 - **Output Format**: Choose how the results are structured in the output items.
-- - Formats: Row with all hits (always lists), Row with all hits (single items and lists), Row for each hit, JSON with Output.
+  - Formats: Row with all hits (always lists), Row with all hits (single items and lists), Row for each hit, JSON with Output.
 
 ### S-FEEL Expressions
 
@@ -68,7 +68,7 @@ Dynamically generating and evaluating DMN based on user inputs can be complex. W
 
 You need the following installed on your development machine:
 
-1. [git](https://git-scm.com/downloads)
+1. Set up [git](https://git-scm.com/downloads)
 2. Node.js and npm. Minimum version Node 18. You can find instructions on how to install both using nvm (Node Version Manager) for Linux, Mac, and WSL [here](https://github.com/nvm-sh/nvm). For Windows users, refer to Microsoft's guide to [Install NodeJS on Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows).
 3. Install n8n with:
 
